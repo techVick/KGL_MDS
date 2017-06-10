@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jun 10 11:21:59 2017
-
-@author: user
+TechVick_GonnaWin
 """
+import pandas as pd
+import numpy as np
+
+test=pd.read_csv("D:/Vikulp_imp_ambitions/machine_learning/kaggle/mds/test.csv")
+train=pd.read_csv("D:/Vikulp_imp_ambitions/machine_learning/kaggle/mds/train.csv")
+sample_submission=pd.read_csv("D:/Vikulp_imp_ambitions/machine_learning/kaggle/mds/sample_submission.csv")
 
